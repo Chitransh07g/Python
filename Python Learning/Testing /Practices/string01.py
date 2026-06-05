@@ -1,0 +1,10 @@
+p=input("Enter your name ")
+print(p.upper())
+l=len(p)
+print(l)
+r=p.replace(" ","")
+print(r)
+c=p.capitalize()
+print(c)
+rr=p[::-1]
+print(rr)
