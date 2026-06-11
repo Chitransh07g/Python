@@ -9,7 +9,7 @@ y = 1
 
 while n <= 5:
     while y <= n:
-        print(y,end="")
+        print(y,end=" ")
         y += 1
     y = 1
     print()    
