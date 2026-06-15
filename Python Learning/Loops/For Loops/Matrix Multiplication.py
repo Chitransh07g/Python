@@ -35,8 +35,8 @@ if col1 == rows2 :
         row = []
         for y in range(col2):
             total = 0
-            for k in range(col1):
-                total += a[x][k] * b[k][y]
+            for z in range(col1):    # yaha   pe humlog row2 bhi dal sakte  .... kyu ki dono same hota h 
+                total += a[x][z] * b[z][y]
             row.append(total)
         new.append(row)
     print(new)
