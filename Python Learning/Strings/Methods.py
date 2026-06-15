@@ -1,5 +1,5 @@
 name = "Chitransh kumar gupta "
-age =18
+age = 18
 print (name.title())
 print (name.upper())
 print (name.lower())
