@@ -33,7 +33,7 @@ def Spiral(b):
         left += 1
 
     return a
-n = 3
+n = int(input("Enter the order of the Square Matrix...(just a number)  :-"))
 b = initialise()
 c = Spiral(b)
 
