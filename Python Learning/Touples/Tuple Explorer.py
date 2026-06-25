@@ -1,0 +1,5 @@
+car = ("ferari" , "toyota" , "mahindra", "porsche" , "BMW")
+print(car[0])
+print(car[4])
+print(car[1:4])
+print(car[::-1])
