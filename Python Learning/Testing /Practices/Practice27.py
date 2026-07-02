@@ -21,3 +21,12 @@ print("....")
 
 # shows how many aliens have been created
 print(f"The Total numbers od aliens :- {str(len(aliens))}")
+
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['points'] = 10
+        alien['speed'] = 'fast'
+
+for alien in aliens[:5]:
+    print(alien)
