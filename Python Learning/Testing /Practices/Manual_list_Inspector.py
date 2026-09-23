@@ -21,11 +21,11 @@ for x in number:
 
 # finding the sum of all the elements from the list 
 
-sum = 0
+total = 0
 for x in number :
-    sum += x
-print("The Sum of all the elements in the list = ", sum ) 
+    total += x
+print("The Sum of all the elements in the list = ", total ) 
 
 # finding average of the elements from the list 
-avg = sum / len(number)
+avg = total / len(number)
 print("Average of all the elements are ;- ", avg )
