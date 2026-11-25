@@ -1,9 +1,11 @@
-numbers = []
+numbers = [5, -4, 9, 2, 7, -1]
 
 def min_max(numbers):
 
     if len(numbers) == 0:
-        return None
+        mini = None
+        maxi = None
+        return (mini, maxi)
 
     maxi = numbers[0]
     mini = numbers[0]
@@ -16,8 +18,13 @@ def min_max(numbers):
         if num < mini:
             mini = num
 
-    return (mini , maxi)
+    return (mini, maxi)
 
-minimum , maximum = min_max(numbers)                 
-print(f"The minimum number is {minimum} ")
-print(f"The maximum number is {maximum} ")
+
+minimum, maximum = min_max(numbers)
+
+if minimum == None and maximum == None:
+    print("The List is empty")
+
+else:
+    print(f"Max: {maximum}, Min: {minimum}")
